@@ -1,3 +1,7 @@
+## 1.0.1
+
+- Added a package screenshot and complete usage example to the README.
+
 ## 1.0.0
 
 - Initial release of the renamed `curved_bottom_nav_bar_animated` package.

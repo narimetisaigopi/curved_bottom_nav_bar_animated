@@ -18,7 +18,7 @@ Add it to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  curved_bottom_nav_bar_animated: ^1.0.0
+  curved_bottom_nav_bar_animated: ^1.0.1
 ```
 
 ## Usage
