@@ -1,3 +1,10 @@
+## 1.0.0
+
+- Initial release of the renamed `curved_bottom_nav_bar_animated` package.
+- Curved bottom navigation bar with animated floating bubble.
+- Configurable sizes, colors, notch shape and animation timing.
+- Optional distinct active icons and accessibility labels.
+
 ## 0.1.0
 
 - Initial release.

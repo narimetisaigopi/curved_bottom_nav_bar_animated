@@ -1,4 +1,4 @@
-import 'package:curved_bottom_nav_bar/curved_bottom_nav_bar.dart';
+import 'package:curved_bottom_nav_bar_animated/curved_bottom_nav_bar_animated.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 

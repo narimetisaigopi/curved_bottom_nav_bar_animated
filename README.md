@@ -1,4 +1,4 @@
-# curved_bottom_nav_bar
+# curved_bottom_nav_bar_animated
 
 A customizable curved bottom navigation bar for Flutter with an animated floating bubble that highlights the active tab.
 
@@ -16,13 +16,13 @@ Add it to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  curved_bottom_nav_bar: ^0.1.0
+  curved_bottom_nav_bar_animated: ^1.0.0
 ```
 
 ## Usage
 
 ```dart
-import 'package:curved_bottom_nav_bar/curved_bottom_nav_bar.dart';
+import 'package:curved_bottom_nav_bar_animated/curved_bottom_nav_bar_animated.dart';
 
 int _index = 0;
 

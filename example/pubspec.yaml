@@ -1,5 +1,5 @@
 name: curved_bottom_nav_bar_example
-description: Example app for the curved_bottom_nav_bar package.
+description: Example app for the curved_bottom_nav_bar_animated package.
 publish_to: none
 
 environment:
@@ -9,7 +9,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  curved_bottom_nav_bar:
+  curved_bottom_nav_bar_animated:
     path: ../
 
 dev_dependencies:
