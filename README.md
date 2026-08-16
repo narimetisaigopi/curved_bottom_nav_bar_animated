@@ -2,6 +2,8 @@
 
 A customizable curved bottom navigation bar for Flutter with an animated floating bubble that highlights the active tab.
 
+![Curved bottom navigation bar example](doc/curved-bottom-nav-bar-example.png)
+
 ## Features
 
 - Smooth curved notch painted behind the active item
@@ -21,23 +23,44 @@ dependencies:
 
 ## Usage
 
+Create a stateful page and update `currentIndex` when an item is tapped:
+
 ```dart
 import 'package:curved_bottom_nav_bar_animated/curved_bottom_nav_bar_animated.dart';
+import 'package:flutter/material.dart';
 
-int _index = 0;
+class ExamplePage extends StatefulWidget {
+  const ExamplePage({super.key});
 
-Scaffold(
-  bottomNavigationBar: CurvedBottomNavBar(
-    currentIndex: _index,
-    onTap: (i) => setState(() => _index = i),
-    items: const [
-      CurvedBottomNavItem(icon: Icons.call, label: 'Calls'),
-      CurvedBottomNavItem(icon: Icons.home_outlined, label: 'Home'),
-      CurvedBottomNavItem(icon: Icons.chat_outlined, label: 'Chat'),
-    ],
-  ),
-);
+  @override
+  State<ExamplePage> createState() => _ExamplePageState();
+}
+
+class _ExamplePageState extends State<ExamplePage> {
+  int _index = 0;
+
+  static const _labels = ['Calls', 'Home', 'Chat'];
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(title: Text(_labels[_index])),
+      body: Center(child: Text(_labels[_index])),
+      bottomNavigationBar: CurvedBottomNavBar(
+        currentIndex: _index,
+        onTap: (index) => setState(() => _index = index),
+        items: const [
+          CurvedBottomNavItem(icon: Icons.call, label: 'Calls'),
+          CurvedBottomNavItem(icon: Icons.home_outlined, label: 'Home'),
+          CurvedBottomNavItem(icon: Icons.chat_outlined, label: 'Chat'),
+        ],
+      ),
+    );
+  }
+}
 ```
+
+See the complete runnable example in [`example/lib/main.dart`](example/lib/main.dart).
 
 ## Customization
 
