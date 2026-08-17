@@ -1,3 +1,7 @@
+## 1.0.3
+
+- Display screenshots side by side for better visual layout.
+
 ## 1.0.2
 
 - Updated README with new screenshots and demo video.

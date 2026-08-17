@@ -2,9 +2,11 @@
 
 A customizable curved bottom navigation bar for Flutter with an animated floating bubble that highlights the active tab.
 
-![Curved bottom navigation bar screenshot 1](doc/screenshot_1.png)
-![Curved bottom navigation bar screenshot 2](doc/screenshot_2.png)
-![Curved bottom navigation bar screenshot 3](doc/screenshot_3.png)
+<div style="display: flex; gap: 10px; justify-content: center; flex-wrap: wrap;">
+  <img src="doc/screenshot_1.png" width="30%" alt="Screenshot 1" />
+  <img src="doc/screenshot_2.png" width="30%" alt="Screenshot 2" />
+  <img src="doc/screenshot_3.png" width="30%" alt="Screenshot 3" />
+</div>
 
 ### Demo Video
 [Watch the animation demo](doc/recording.webm)
