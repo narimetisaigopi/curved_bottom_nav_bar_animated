@@ -8,10 +8,10 @@ A customizable curved bottom navigation bar for Flutter with an animated floatin
   <img src="doc/screenshot_3.png" width="30%" alt="Screenshot 3" />
 </div>
 
-### Demo Video
-[![Watch the demo video](doc/screenshot_1.png)](doc/recording.webm)
+### Demo Animation
+![Animation demo](doc/doc_recording.gif)
 
-*Click the image to watch the animation demo*
+*The animation plays automatically*
 
 ## Features
 
