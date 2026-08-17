@@ -1,3 +1,7 @@
+## 1.0.5
+
+- Fixed demo video link - now clickable as image link instead of HTML video tag.
+
 ## 1.0.4
 
 - Added video preview player in README with poster thumbnail.
