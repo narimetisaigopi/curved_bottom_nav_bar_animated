@@ -9,7 +9,10 @@ A customizable curved bottom navigation bar for Flutter with an animated floatin
 </div>
 
 ### Demo Video
-[Watch the animation demo](doc/recording.webm)
+<video width="100%" max-width="400px" controls poster="doc/screenshot_1.png">
+  <source src="doc/recording.webm" type="video/webm">
+  Your browser does not support the video tag.
+</video>
 
 ## Features
 

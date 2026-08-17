@@ -1,3 +1,7 @@
+## 1.0.4
+
+- Added video preview player in README with poster thumbnail.
+
 ## 1.0.3
 
 - Display screenshots side by side for better visual layout.
