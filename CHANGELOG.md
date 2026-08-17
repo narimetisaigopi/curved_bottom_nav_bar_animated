@@ -1,3 +1,8 @@
+## 1.0.2
+
+- Updated README with new screenshots and demo video.
+- Improved documentation with visual examples.
+
 ## 1.0.1
 
 - Added a package screenshot and complete usage example to the README.
